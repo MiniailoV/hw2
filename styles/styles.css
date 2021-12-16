@@ -21,7 +21,6 @@ body {
   letter-spacing: 0.03em;
 }
 .nav {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -40,20 +39,133 @@ body {
 }
 .nav-link,
 .contacts-link,
-.logo {
+.logo,
+.address-link-map,
+.address-link,
+.section-pfo-link {
   text-decoration: none;
 }
 .nav-link:hover,
 .contacts-link:hover,
-.web-logo {
+.web-logo,
+.web-logo:focus,
+.address-link-map:hover,
+.address-link:hover {
   color: var(--blue-color);
 }
+
 .contacts-link {
   color: var(--grey-color);
 }
 .nav-list,
-.contacts {
+.contacts,
+.wwd-section-list,
+.pcls-section-list,
+.team-section-list,
+.address-list,
+.section-pfo-list,
+.section-pfo-list-btn {
   list-style: none;
 }
 /*--INDEX HTML MAIN*/
 /*pcls-peculiarities, wwd: what-we-do--sections*/
+.hide {
+  display: none;
+}
+.hero {
+  background-color: var(--bcg-footer-heroes-color);
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+.pcls-section-title {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.pcls-section-post {
+  line-height: 1.71;
+  color: var(--grey-color);
+}
+/*WHAT WE DO SCTN & OUR TEAM*/
+.wwd-section-title,
+.team-section-title-head {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 1.16;
+  text-align: center;
+}
+.team-section-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.team-section-post {
+  font-size: 16px;
+  line-height: 1.18;
+  color: var(--grey-color);
+}
+/*FOOTER*/
+.footer {
+  background-color: var(--bcg-footer-heroes-color);
+}
+.address {
+  font-style: inherit;
+}
+.address-link-map {
+  line-height: 1.71;
+  color: var(--white-color);
+}
+.address-link {
+  line-height: 1.71;
+  color: var(--footer-contacts-color);
+}
+.studio {
+  color: var(--white-color);
+}
+/*BUTTONS*/
+.btn {
+  cursor: pointer;
+  background-color: var(--bcg-ourteam-color);
+  color: var(--black-font-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  border-color: transparent;
+  display: inline-block;
+  border-radius: 4px;
+}
+.btn:hover,
+.btn:focus {
+  cursor: pointer;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+}
+.btn.btn-main {
+  color: var(--white-color);
+  background-color: var(--blue-color);
+  font-weight: bold;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+}
+/*PORTFOLIO*/
+.section-pfo-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.section-pfo-post {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--grey-color);
+}
