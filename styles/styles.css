@@ -104,7 +104,6 @@ body {
 .wwd-section-title,
 .team-section-title-head {
   font-size: 36px;
-  font-weight: bold;
   line-height: 1.16;
   text-align: center;
 }
@@ -169,7 +168,6 @@ body {
 /*PORTFOLIO*/
 .section-pfo-title {
   color: var(--black-font-color);
-  font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
