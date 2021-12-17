@@ -19,16 +19,16 @@
     <header class="page-hdr">
         <!--В навигацию оборачиваем только главную одинаковую навигацию, если в футере другие ссылки, обернуть не можем-->
         <nav class="nav">
-            <a class="logo" href="#"><span class="web-logo">Web</span>Studio</a>
-            <ul class="nav-list">
-                <li><a class="nav-link current" href="#">Студия</a></li>
-                <li><a class="nav-link" href="portfolio.html">Портфолио</a></li>
-                <li><a class="nav-link" href="#">Контакты</a></li>
+            <a class="link logo" href="#"><span class="web-logo">Web</span>Studio</a>
+            <ul class="list nav-list">
+                <li class="nav-item"><a class="link nav-link current" href="#">Студия</a></li>
+                <li class="nav-item"><a class="link nav-link" href="portfolio.html">Портфолио</a></li>
+                <li class="nav-item"><a class="link nav-link" href="#">Контакты</a></li>
             </ul>
         </nav>
-        <ul class="contacts">
-            <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="list contacts-list">
+            <li class="contacts-item"><a class="link contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-item"><a class="link contacts-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main>
@@ -40,25 +40,25 @@
         </section>
         <!--След секция особенности-->
         <section class="pcls-section">
-            <h2 class="hide">ОСОБЕННОСТИ</h2>
+            <h2 class="visually-hidden">ОСОБЕННОСТИ</h2>
             <!--Скрыть через CSS-->
-            <ul class="pcls-section-list">
-                <li>
+            <ul class="list pcls-section-list">
+                <li class="pcls-item">
                     <h3 class="pcls-section-title">Внимание к деталям</h3>
                     <p class="pcls-section-post">Идейные соображения, а так же начало повседневной работы по формированию
                         позиции.</p>
                 </li>
-                <li>
+                <li class="pcls-item">
                     <h3 class="pcls-section-title">Пунктуальность</h3>
                     <p class="pcls-section-post">Задача организации, в особенности же рамки и место обучения кадров влечёт за
                         собой.</p>
                 </li>
-                <li>
+                <li class="pcls-item">
                     <h3 class="pcls-section-title">Планирование</h3>
                     <p class="pcls-section-post"> Равным образом консультация с широким активом в значительной степени
                         обуславливает.</p>
                 </li>
-                <li>
+                <li class="pcls-item">
                     <h3 class="pcls-section-title">Современные технологии</h3>
                     <p class="pcls-section-post">Значимость этих проблем настолько очевидна, что реализация плановых заданий</p>
                 </li>
@@ -67,12 +67,12 @@
         <!--Секция чем мы занимаемся-->
         <section class="wwd-section">
             <h2 class="wwd-section-title">Чем мы занимаемся</h2>
-            <ul class="wwd-section-list">
-                <li><a class="wwd-section-link" href="#"><img src="./images/keyboard.jpg" alt="клавитура" width="370"
+            <ul class="list wwd-section-list">
+                <li class="wwd-item"><a class="link wwd-section-link" href="#"><img src="./images/keyboard.jpg" alt="клавитура" width="370"
                             height="294"></a></li>
-                <li><a class="wwd-section-link" href="#"><img src="./images/notebook.jpg" alt="ноутбук" width="370"
+                <li class="wwd-item"><a class="link wwd-section-link" href="#"><img src="./images/notebook.jpg" alt="ноутбук" width="370"
                             height="294"></a></li>
-                <li><a class="wwd-section-link" href="#"><img src="./images/tablet.jpg" alt="планшет" width="370" height="294"></a>
+                <li class="wwd-item"><a class="link wwd-section-link" href="#"><img src="./images/tablet.jpg" alt="планшет" width="370" height="294"></a>
                 </li>
             </ul>
         </section>
@@ -80,23 +80,23 @@
         <div class="team">
             <section class="team-section">
                 <h2 class="team-section-title-head">Наша команда</h2>
-                <ul class="team-section-list">
-                    <li>
+                <ul class="list team-section-list">
+                    <li class="team-item">
                         <img src="./images/ihor.jpg" alt="фото-сотрудника-Игоря" width="270" height="260">
                         <h3 class="team-section-title">Игорь Демьяненко</h3>
                         <p class="team-section-post">Product Designer</p>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <img src="./images/olga.jpg" alt="фото-сотрудника-Ольги" width="270" height="260">
                         <h3 class="team-section-title">Ольга Репина</h3>
                         <p class="team-section-post">Frontend Developer</p>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <img src="./images/nikola.jpg" alt="фото-сотрудника-Николая" width="270" height="260">
                         <h3 class="team-section-title">Николай Тарасов</h3>
                         <p class="team-section-post">Marketing</p>
                     </li>
-                    <li>
+                    <li class="team-item">
                         <img src="./images/miko.jpg" alt="фото-сотрудника-Михаила" width="270" height="260">
                         <h3 class="team-section-title">Михаил Ермаков</h3>
                         <p class="team-section-post">UI Designer</p>
@@ -107,14 +107,14 @@
     </main>
     <!--Подвал-->
     <footer class="footer">
-        <a class="logo" href="#"><span class="web-logo">Web</span><span class="studio">Studio</span></a>
+        <a class="link logo" href="#"><span class="web-logo">Web</span><span class="studio">Studio</span></a>
         <address class="address">
-            <ul class="address-list">
-                <li><a class="address-link-map" href="https://goo.gl/maps/qvFhKNeTqDzLGV248" target="_blank"
+            <ul class="list address-list">
+                <li class="address-item"><a class="link address-link-map" href="https://goo.gl/maps/qvFhKNeTqDzLGV248" target="_blank"
                         rel="noopener noreferrer nofollow">г. Киев, пр-т Леси Украинки, 26</a></li>
-                <li><a class="address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="address-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+                <li class="address-item"><a class="link address-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-item"><a class="link address-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            </ul> class="pcls-item"
         </address>
     </footer>
 </body>

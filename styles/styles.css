@@ -21,6 +21,18 @@ body {
   font-weight: normal;
   letter-spacing: 0.03em;
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .nav {
   font-weight: 500;
   font-size: 14px;
@@ -38,12 +50,7 @@ body {
 .nav-link {
   color: var(--black-font-color);
 }
-.nav-link,
-.contacts-link,
-.logo,
-.address-link-map,
-.address-link,
-.section-pfo-link {
+.link {
   text-decoration: none;
 }
 .nav-link:hover,
@@ -63,14 +70,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
-.nav-list,
-.contacts,
-.wwd-section-list,
-.pcls-section-list,
-.team-section-list,
-.address-list,
-.section-pfo-list,
-.section-pfo-list-btn {
+.list {
   list-style: none;
 }
 /*--INDEX HTML MAIN*/
@@ -168,12 +168,14 @@ body {
 }
 /*PORTFOLIO*/
 .section-pfo-title {
+  color: var(--black-font-color);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .section-pfo-post {
+  color: var(--black-font-color);
   font-size: 16px;
   line-height: 30px;
   color: var(--grey-color);
